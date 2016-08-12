@@ -2,11 +2,11 @@
 
 #### helping students select their classes: since 2016.
 
-#### by Kyle Lange
+#### by Kyle Lange + [github site]: (http://github.com/kylelange)
 
 ## Description
 
-_{This is a form to help current and future Epicodus students select the programming track that feels most interesting and comforting for them so that internal motivation can thrive.}_
+_{This is a form to help current and future Epicodus students select the programming track that feels most interesting and comforting for them so that internal motivation can thrive. [see it live, here:] (https://kylelange.github.io/selector/)}_
 
 ## Setup/Installation Requirements
 
