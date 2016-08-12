@@ -33,18 +33,19 @@ h2 {
 
 
 /*Class Selectors********************/
-
+ #c-java, #php-ruby, #css-d {
+   display: none;
+ }
 
 
 /*Id Selectors***********************/
-#res {
-  display: none;
-  /*background-color: #1B8FB5;
+#c-java, #php-ruby, #css-d {
+  background-color: #1B8FB5;
   border-radius: 20px 2%;
   border: 3px solid cornsilk;
   padding: 15px;
   margin: 15px;
-  font-size: 1.25em;*/
+  font-size: 1.25em;
 }
 
 #btn {
