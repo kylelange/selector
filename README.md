@@ -2,7 +2,7 @@
 
 #### helping students select their classes: since 2016.
 
-#### by Kyle Lange + [github site]: (http://github.com/kylelange)
+#### by Kyle Lange + (http://github.com/kylelange)
 
 ## Description
 
@@ -11,7 +11,7 @@ _{This is a form to help current and future Epicodus students select the program
 ## Setup/Installation Requirements
 
 * _clone the repository_
-* _use Git Clone in your terminal and make sure to link to my [github site]: (http://github.com/kylelange)_
+* _use Git Clone in your terminal and make sure to link to my [github site:] (http://github.com/kylelange)_
 * _check your git log to see all of my commits!_
 * _use git remote -v to make sure you are the origin user_
 * _don't forget to open atom with: atom ._
