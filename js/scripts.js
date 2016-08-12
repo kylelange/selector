@@ -4,8 +4,6 @@
 
 
 // User Interface Logic
-alert("hello4")
-
 
 $(document).ready(function(){
   $("form").submit(function(event){
@@ -19,19 +17,19 @@ $(document).ready(function(){
     $(".name").text(input);
 
     if (q1 === "1-yes" && q2 === "2-yes" && q3 === "3-yes"){
-      alert("hello1");
+      // alert("hello1");
       $("#css-d").hide();
       $("#php-ruby").hide();
       $("#c-java").show();
     }
       else if (q1 === "1-no" && q2 === "2-no" && q3 === "3-no"){
-        alert("hello2");
+        // alert("hello2");
         $("#php-ruby").hide();
         $("#c-java").hide();
         $("#css-d").show();
       }
       else {
-        alert("hello3");
+        // alert("hello3");
         $("#c-java").hide();
         $("#css-d").hide();
         $("#php-ruby").show();
