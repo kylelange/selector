@@ -13,7 +13,7 @@ $(document).ready(function(){
     // var q4 = $("#q4").val();
     // var q5 = $("#q5").val();
     var input = $("input#name").val();
-    alert(input)
+    // alert(input)
     $(".name").text(input);
 
     if (q1 === "1-yes" && q2 === "2-yes" && q3 === "3-yes"){
