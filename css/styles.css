@@ -1,0 +1,65 @@
+/*Universal Selectors****************/
+
+body {
+  color: cornsilk;
+  background: url(../img/code-back.jpg) no-repeat center center fixed;
+  origin background-size: cover;
+  background-size: cover;
+  background-color: #ffffff;
+}
+
+h1 {
+  background-color: #1B8FB5;
+  border-radius: 20px 3%;
+  border: 3px solid cornsilk;
+  padding: 15px;
+  margin: 15px
+}
+
+h2, h3 {
+  max-width: 920px;
+  background-color: #1B8FB5;
+  border-radius: 20px 3%;
+  border: 3px solid cornsilk;
+  padding: 15px;
+  margin: 15px
+}
+
+h2 {
+  float:right;
+  font-size: 1.4em;
+}
+
+
+
+/*Class Selectors********************/
+
+
+
+/*Id Selectors***********************/
+#res {
+  display: none;
+  /*background-color: #1B8FB5;
+  border-radius: 20px 2%;
+  border: 3px solid cornsilk;
+  padding: 15px;
+  margin: 15px;
+  font-size: 1.25em;*/
+}
+
+#btn {
+  margin: 15px;
+  padding: 15px;
+  background-color: #1B8FB5;
+  border-radius: 20px 3%;
+  border: 3px solid cornsilk;
+  font-size: 1.25em;
+}
+
+#btn:hover {
+  color: #000000;
+  background-color: cornsilk;
+  border: 3px solid #1B8FB5;
+}
+
+/*Media Queries**********************/

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery-3.1.0.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>Track Suggester</title>
+    </head>
+    <body>
+<!-- Header ------------------------------>
+        <div class="container">
+          <div class="page-header">
+            <h1>Epicodus Programming Track Selector</h1>
+          </div>
+        </div>
+<!-- The survey Questions ------------------------------------------>
+      <form class="form-q">
+        <h3>Please select the best option from the following questions to find the track that best fits your needs and interests.</h3>
+        <div class="container">
+          <h2>Q1: I prefer to work with a language that has stood the test of time, not just a flavor-of-the-month.</h2>
+          <select class="form-control" name="q1">
+            <option value="1">Strongly Agree</option>
+            <option value="2">Agree</option>
+          </select>
+          <h2>Q2: Job security is a major concern for me. I'd rather not know the most popular language than have to compete with a large group of people.</h2>
+          <select class="form-control" name="q2">
+            <option value="1">Strongly Agree</option>
+            <option value="2">Agree</option>
+          </select>
+          <h2>Q3: Working in a larger company is fine with me; smaller operations require me to wear too many hats.</h2>
+          <select class="form-control" name="q3">
+            <option value="1">Strongly Agree</option>
+            <option value="2">Agree</option>
+          </select>
+          <!-- <h2>Q4: I like working with prominent clients and long-term projects.  Most of the time, small projects and apps are not for me.</h2>
+          <select class="form-control" name="q4">
+            <option value="1">Strongly Agree</option>
+            <option value="2">Agree</option>
+          </select>
+          <h2>Q5: I enjoy manipulating data and making sure programs run smoothly over worrying about layout or user interface.</h2>
+          <select class="form-control" name="q5">
+            <option value="1">Strongly Agree</option>
+            <option value="2">Agree</option>
+          </select> -->
+        </div>
+      <button type="submit" class="btn>" id="btn"> Suggest a Track</button>
+      </form>
+<!-- The hidden paragraph of results ------------------------------->
+        <div class="container" id="c-java">
+          <p>Thanks for your input.  Given your results, try: C# or Java</p>
+        </div>
+        <div class="container" id="php-ruby">
+          <p>Thanks for your input.  Given your results, try: PHP or Ruby</p>
+        </div>
+        <div class="container" id="css-d">
+          <p>Thanks for your input.  Given your results, try: CSS and Design</p>
+        </div>
+    </body>
+  </html>
