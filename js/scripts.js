@@ -4,7 +4,9 @@
 
 
 // User Interface Logic
-// alert("hello4")
+alert("hello4")
+
+
 $(document).ready(function(){
   $("form").submit(function(event){
     var q1 = $("#q1").val();
@@ -12,6 +14,9 @@ $(document).ready(function(){
     var q3 = $("#q3").val();
     // var q4 = $("#q4").val();
     // var q5 = $("#q5").val();
+    var input = $("input#name").val();
+    alert(input)
+    $(".name").text(input);
 
     if (q1 === "1-yes" && q2 === "2-yes" && q3 === "3-yes"){
       alert("hello1");
