@@ -34,7 +34,7 @@ $(document).ready(function(){
         $("#css-d").hide();
         $("#php-ruby").show();
       }
-    event.preventdefault();
+    event.preventDefault();
   });
 });
 console.log("Program Complete!");
