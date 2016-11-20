@@ -17,7 +17,6 @@ $(document).ready(function(){
     $(".name").text(input);
 
     if (q1 === "1-yes" && q2 === "2-yes" && q3 === "3-yes"){
-      // alert("hello1");
       $("#css-d").hide();
       $("#php-ruby").hide();
       $("#c-java").show();
